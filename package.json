@@ -21,6 +21,9 @@
     "start:log": "cross-env Node_ENV=development ts-node src/cli/LogServer.ts",
     "startjs": "node ."
   },
+  "engines": {
+    "node": ">=16.6"
+  },
   "author": "gnsksz",
   "license": "ISC",
   "dependencies": {
